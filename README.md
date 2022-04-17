@@ -7,4 +7,4 @@ Instructions to run:
 3. `cd the-librarian`
 4. Run `node index.js`
 
-The program is entirely written in JavaScript, and the `index.js` already contains the sample commands from the script outlined in the `Developer Challenge` file that can be used on the library.
+The program is entirely written in JavaScript, and the `index.js` already contains the sample commands from the script outlined in the `Developer Challenge`.
