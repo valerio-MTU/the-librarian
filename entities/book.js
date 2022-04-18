@@ -19,7 +19,7 @@ class Book {
     }
 
     addNewCopies(numberOfCopiesToAdd) {
-        if (typeof numberOfCopiesToAdd !== 'number') { throw `Wrong value for the number of copies to add`; }
+        if (!Number.isInteger(numberOfCopiesToAdd) || (numberOfCopiesToAdd < 1)) { throw `Wrong value for the number of copies to add`; }
         this.totalCopies += numberOfCopiesToAdd;
         this.availableCopies += numberOfCopiesToAdd;
     }
